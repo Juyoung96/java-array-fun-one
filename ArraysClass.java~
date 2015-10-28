@@ -1,0 +1,28 @@
+/*
+ * Project: ArrayClass.java
+ * Description: Working with Arrays class
+ * Name: Juyoung Lee
+ * Date: Oct 28, 2015
+ */
+
+import java.util.Arrays;
+
+public class ArraysClass {
+   
+  public static void printArray( int[] a ) {
+    System.out.print( "Array: " );
+    for( int i=0; i<a.length; i++) {
+     System.out.print( a[i] + "," ); 
+    }
+  }
+  
+  public static void main( String[] args ) {
+    
+    // Sort
+    int b[] = { 1, 4, -3, 255, 17, 84, -127};
+    Arrays.sort(b);
+    printArray(b);
+     
+  } // End main
+  
+} // End class
